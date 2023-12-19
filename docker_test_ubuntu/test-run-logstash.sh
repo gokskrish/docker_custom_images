@@ -1,0 +1,1 @@
+docker run --rm -it -v ${PWD}/logstash.conf:/usr/share/logstash/pipeline/logstash.conf logstash:7.16.3

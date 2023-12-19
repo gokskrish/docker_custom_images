@@ -1,0 +1,1 @@
+docker run --rm -d -v ~/linz/ept-frontend-cdns/:/root/project -v ~/.aws/credentials:/root/.aws/credentials --name=cdk aws-cdk:latest

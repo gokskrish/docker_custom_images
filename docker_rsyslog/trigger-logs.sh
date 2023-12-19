@@ -1,0 +1,1 @@
+docker exec rsyslog systemctl restart rsyslog
