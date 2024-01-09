@@ -1,3 +1,1 @@
-docker run --rm -d \
-    -v $PWD/config:/etc/config -v $PWD/logs:/var/logs \
-    --name=ubuntu ubuntu-local tail -f /dev/null
+docker run --rm -d -v $PWD/data:/var/data --name=ubuntu ubuntu:latest tail -f /dev/null
